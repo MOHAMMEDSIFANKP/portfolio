@@ -9,7 +9,6 @@ function App() {
         }
 
         document.addEventListener("contextmenu", handleContextMenu)
-        document.title = 'Mohammed Sifan kp'
         return () => {
             document.removeEventListener("contextmenu", handleContextMenu)
         }
